@@ -30,6 +30,8 @@ circle r = Circle origin r
 
 
 -- Clase Shift
+-- va a mover al objeto recibido según la tupla (dx, dy)
+-- se define una instancia para cada tipo de Shape, cada Shape implementa su propia versión de shift
 
 class Shift a where
    shift::a -> (Double, Double) -> a
@@ -45,6 +47,9 @@ instance Shift Circle where
 
 
 -- Define the Surface class
+-- define una instancia de Surface para cada shape que permita calcula el area
+-- cada shape define su propia versión de surface
+
 class Surface a where
     surface :: a -> Double
 
