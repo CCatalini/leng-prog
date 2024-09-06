@@ -5,10 +5,10 @@ import Bit (Bit(T, F))
 
 main :: IO ()
 main = hspec $ do
-  let trie = (Leaf 'A' :-: Leaf 'B') :-: Leaf 'C'
+  let trie = Node (Node (Leaf 'A') (Leaf 'B')) (Leaf 'C')  -- Reemplazado :-: con Node
   describe "Binary Trie - Basic" $ do
     it "left" $ do
-      left trie `shouldBe` (Leaf 'A' :-: Leaf 'B')
+      left trie `shouldBe` Node (Leaf 'A') (Leaf 'B')  -- Reemplazado :-: con Node
       
     it "right" $ do
       right trie `shouldBe` Leaf 'C'
