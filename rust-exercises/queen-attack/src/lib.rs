@@ -1,23 +1,31 @@
-#[derive(Debug)]
-pub struct ChessPosition(i32, i32);
-
-#[derive(Debug)]
-pub struct Queen {
-    position: ChessPosition
+pub struct User {
+    name: String,
+    age: u32,
+    weight: f32,
 }
 
-impl ChessPosition {
-    pub fn new(rank: i32, file: i32) -> Option<Self> {
-        panic!("Implement me");
-    }
-}
-
-impl Queen {
-    pub fn new(position: ChessPosition) -> Self {
-        panic!("Implement me");
+impl User {
+    pub fn new(name: &str, age: u32, weight: f32) -> Self {
+        User{name:String::from(name),age,weight}
     }
 
-    pub fn can_attack(&self, other: &Queen) -> bool {
-    panic!("Implement me");
-}
+    pub fn name(&self) -> &str {
+        &self.name
+    }
+
+    pub fn age(&self) -> u32 {
+        self.age
+    }
+
+    pub fn weight(&self) -> f32 {
+        self.weight
+    }
+
+    pub fn set_age(&mut self, new_age: u32) {
+        self.age = new_age
+    }
+
+    pub fn set_weight(&mut self, new_weight: f32) {
+        self.weight = new_weight
+    }
 }
