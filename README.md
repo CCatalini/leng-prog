@@ -1,17 +1,21 @@
 # [Lenguajes de Programación](https://facultaddeingenieria.github.io/leng-prog)
 
 ### Temas teórica:
-1. [Introduction](https://facultaddeingenieria.github.io/leng-prog/classes/Class-01.slides.html)
-2. [List, Higher Order Functions](https://facultaddeingenieria.github.io/leng-prog/classes/Class-02.slides.html)
-3. [User defined types, Error handling, Type classes](https://facultaddeingenieria.github.io/leng-prog/classes/Class-03.slides.html)
-4. [Input Output, Modules](https://facultaddeingenieria.github.io/leng-prog/classes/Class-04.slides.html)
-5. [Functors & Monads](https://facultaddeingenieria.github.io/leng-prog/classes/Class-05.slides.html)
-6. **Primer Parcial**
-7. [Introduction to Rust](classes/Class-06.slides.html)
-8. [Rust Memory model](classes/Class-07.slides.html)
-9. [Slices, Vector, iter, HashMap, HOFs](classes/Class-08.slides.html)
-10. [Rc, Traits, Generics, Lifetimes, Unicode](classes/Class-09.slides.html)
-11. [Functional Programming in Java & new Features](classes/Class-10.slides.html)
+
+1.  [Introduction](https://facultaddeingenieria.github.io/leng-prog/classes/Class-01.slides.html)
+2.  [List, Higher Order Functions](https://facultaddeingenieria.github.io/leng-prog/classes/Class-02.slides.html)
+3.  [User defined types, Error handling, Type classes](https://facultaddeingenieria.github.io/leng-prog/classes/Class-03.slides.html)
+4.  [Input Output, Modules](https://facultaddeingenieria.github.io/leng-prog/classes/Class-04.slides.html)
+5.  [Functors & Monads](https://facultaddeingenieria.github.io/leng-prog/classes/Class-05.slides.html)
+6.  **Primer Parcial**
+7.  [Introduction to C](classes/C-Introduction.html)
+9.  [Introduction to Rust](classes/rust/01-Introduction.slides.html)
+10. [References, Structs & Traits](classes/rust/02-Refs-Structs-Traits.slides.html)
+11. [Rust Memory management](classes/Rust-03-Memory-Managment.html)
+12. [Slices, Vector, iter, HashMap, HOFs](classes/Rust-04-Collections.html)
+13. [Smart Pointers, Lifetimes, Dynamic Polymorphism](classes/Rust-05-SmartPointers.html)
+14. [Macros, Unsafe code](classes/Rust-06-Macros.html)
+15. [Unicode](classes/Unicode.html)
 
 ### Trabajos Prácticos
 1. TP1:
@@ -91,6 +95,9 @@ Teoria: Lunes 16 a 19, Práctica Martes de 17 a 19
 * [Haskell oficial web site](https://www.haskell.org)
 * [Learn You a Haskell for Great Good](http://learnyouahaskell.com)
 * [A gentle introduction to Haskell](files/haskell-98-tutorial.pdf)
+* [The Rust Book](https://doc.rust-lang.org/book/)
+* [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
+* [Exercise in Rust, Rustlings](https://github.com/rust-lang/rustlings)
 
 ## Recursos
 
